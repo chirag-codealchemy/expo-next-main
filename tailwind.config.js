@@ -5,11 +5,11 @@ module.exports = {
     "./pages/**/*.{js,jsx,ts,tsx}",
     "./screens/**/*.{js,jsx,ts,tsx}"
   ],
-  // plugins: ['nativewind/tailwind/css'],
-  // important: 'html',
+  plugins: ['nativewind/tailwind/css'],
+  important: 'html',
   theme: {
     extend: {},
   },
-  plugins:[]
+  // plugins:[]
 }
  
